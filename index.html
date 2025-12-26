@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini LMS - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            text-align: center;
+            padding: 30px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            width: 260px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .card h3 {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Multi-Tenant Learning Management System</h1>
+<p>Select a dashboard</p>
+
+<div class="container">
+
+    <!-- Student Dashboard -->
+    <div class="card">
+        <a href="student.html">
+            <img src="ppt.jpeg" alt="Student Dashboard">
+        </a>
+        <h3>Student Dashboard</h3>
+    </div>
+
+    <!-- Instructor Dashboard -->
+    <div class="card">
+        <a href="instructor.html">
+            <img src="ppt.jpeg" alt="Instructor Dashboard">
+        </a>
+        <h3>Instructor Dashboard</h3>
+    </div>
+
+    <!-- Course Management -->
+    <div class="card">
+        <a href="courses.html">
+            <img src="ppt.jpeg" alt="Course Management">
+        </a>
+        <h3>Course Management</h3>
+    </div>
+
+</div>
+
+</body>
+</html>
